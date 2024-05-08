@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is the title</title>
+  </head>
+  <body>
+    <!--command / for auto comment-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <!-- Lorem is used as paragraph placeholders -->
+    <p><strong>Bold text</strong></p>
+    <p><em>Italic text</em></p>
+
+    <!-- LISTS -->
+    <h1>Lists</h1>
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <ul>
+        <li>hello</li>
+      </ul>
+    </ol>
+
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+
+    <!-- Divs and Spans -->
+    <h1>Divs and Spans</h1>
+
+    <div class="groupone">
+      <h1>Group One</h1>
+      <p>group <span>one</span> text</p>
+    </div>
+
+    <!-- span is an inline container rather than a whole group like a div -->
+
+
+    <!-- Attributes -->
+    <h1>Attributes</h1>
+
+    <img src="django.png" alt="Image not found">
+
+    <a href="newpage.html">Click Here</a>
+
+
+    <!-- Tables -->
+    <h1>Tables</h1>
+    <table border="1">
+      <thead>
+        <th>Number</th>
+        <th>Colour</th>
+        <th>Country</th>
+      </thead>
+      <tr>
+        <td>250</td>
+        <td>Red</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>Blue</td>
+        <td>France</td>
+      </tr>
+    </table>
+
+    <!-- Forms -->
+    <h1>Forms</h1>
+    <form action="https://www.facebook.com" method="get">  
+
+      <label for="userinput">Enter Input: </label>
+      <input type="text" name="" placeholder="not required">
+      <input type="text" placeholder="Hello" required>
+      <input type="submit" name="" value="Submit">
+    </form>
+
+
+    <h1>Hotel Feedback Form</h1>
+    <form method="get">
+      <h3>Are you from the USA or not</h3>
+      
+      <label for="inusa">Inside: </label>
+      <input id="inusa" type="radio" name="loc" value="inside">
+      
+      <label for="outusa">Outside: </label>
+      <input id="outusa" type="radio" name="loc" value="outside">
+
+      <h3>How was your service?</h3>
+      <select name="stars">
+        <option value="Great">3</option>
+        <option value="OK">2</option>
+        <option value="Bad">1</option>
+
+      </select>
+      <h3>Any other feedback?</h3>
+      <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+      
+      <input type="submit" value="Submit">
+
+    </form>
+  </body>
+</html>
